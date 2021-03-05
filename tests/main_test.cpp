@@ -5,7 +5,7 @@ TEST(GreaterTest,AisGreater) {
 }
 
 TEST(GreaterTest,BisGreater) {
-  EXPECT_EQ(1,GreatestOfThree(1,3,2));
+  EXPECT_EQ(3,GreatestOfThree(1,3,2));
 }
 
 TEST(GreaterTest,CisGreater) {
